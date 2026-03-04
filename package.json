@@ -1,21 +1,28 @@
 {
-  "name": "planner",
-  "version": "1.0.0",
-  "description": "v2 of event planner",
-  "main": "index.js",
+  "name": "eventone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite build; vite preview --host"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MGmoses/planner.git"
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/MGmoses/planner/issues"
-  },
-  "homepage": "https://github.com/MGmoses/planner#readme"
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
 }
