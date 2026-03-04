@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MGmoses/planner/issues"
   },
-  "homepage": "https://github.com/MGmoses/planner#readme"
+  "homepage": "https://github.com/MGmoses/planner#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2"
+  }
 }
